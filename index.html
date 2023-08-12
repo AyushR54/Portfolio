@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/dd016b109c.js" crossorigin="anonymous"></script>
+  <title>Ayush's Portfolio</title>
+</head>
+
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+  
+    <!-- <nav class="flex justify-center space-x-4 p-7 bg-gray-700">
+        <a href="/projects" class="font-medium px-3 py-2 text-white rounded-lg hover:text-emerald-500">PROJECTS</a>
+        <a href="/about" class="font-medium px-3 py-2 text-white rounded-lg hover:text-emerald-500">ABOUT</a>
+        <a href="/contact" class="font-medium px-3 py-2 text-white rounded-lg hover:text-emerald-500">CONTACT</a>
+    </nav> -->
+
+    <!-- Navigation Bar -->
+  <nav class="bg-gray-800 shadow-md p-5">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex items-center justify-between">
+        <!-- Logo or Branding -->
+        <a href="#" class="text-xl font-semibold text-white">Ayush Raut</a>
+
+        <!-- Navigation Links -->
+        <ul class="flex space-x-6">
+          <li><a href="#projects" class="text-white hover:text-emerald-500">Projects</a></li>
+          <li><a href="#about" class="text-white hover:text-emerald-500">About</a></li>
+          <li><a href="#contact" class="text-white hover:text-emerald-500">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="heading bg-emerald-500 p-10">
+        <img class="image" src="images/hoodie.png" alt="user-icon">
+        <h1 class="text-5xl italic font-medium text-center text-white p-3">Hi! I'm Ayush</h1>
+        <p class="text-xl text-center text-white p-3 pb-10">Student | Web Developer</p>
+    </div>
+
+
+    <!-- Projects section -->
+    <section class="bg-white pt-16 pb-10" id="projects">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-semibold mb-8">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Project Card 1 -->
+          <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+            <img class="card-image my-2" src="/images/tindog.png" alt="TinDog">
+            <h3 class="text-xl font-semibold mb-2">TinDog</h3>
+            <p class="text-gray-600">A beautiful webpage for TinDog: a tinder for dogs. Download the app now!</p>
+            <a href="https://github.com/AyushR54/Projects/tree/main/TinDog" class="inline-block bg-gray-500 text-white px-4 py-2 mt-3 rounded-md hover:bg-gray-600 font-semibold focus:outline-none focus:ring focus:ring-blue-300 transition duration-300">View Details</a>
+          </div>
+          
+          <!-- Project Card 2 -->
+          <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+            <img class="card-image my-2" src="/images/journal.png" alt="Journal">
+            <h3 class="text-xl font-semibold mb-2">Daily Journal</h3>
+            <p class="text-gray-600">Want to maintain a personal diary? Use this to journal everyday.</p>
+            <a href="https://github.com/AyushR54/Projects/tree/main/Daily%20Journal" class="inline-block bg-gray-500 text-white px-4 py-2 mt-3 rounded-md hover:bg-gray-600 font-semibold focus:outline-none focus:ring focus:ring-blue-300 transition duration-300">View Details</a>
+          </div>
+          
+          <!-- Project Card 3 -->
+          <div class="bg-gray-200 p-6 rounded-lg shadow-md">
+            <img class="card-image my-2" src="/images/simon game.png" alt="Simon Game">
+            <h3 class="text-xl font-semibold mb-2">Simon Game</h3>
+            <p class="text-gray-600">Think you have good memory? Test yourself with this fun game.</p>
+            <a href="https://github.com/AyushR54/Projects/tree/main/Simon%20Game" class="inline-block bg-gray-500 text-white px-4 py-2 mt-3 rounded-md hover:bg-gray-600 font-semibold focus:outline-none focus:ring focus:ring-blue-300 transition duration-300">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- More Projects  -->
+    <div class="pb-10 text-center">
+      <a href="https://github.com/AyushR54/Projects" class="inline-block px-6 py-3 bg-emerald-500 hover:bg-emerald-700 text-white rounded-md font-semibold focus:outline-none focus:ring focus:ring-blue-300 transition duration-300 mt-8">View More Projects</a>
+    </div>
+
+
+
+  <!-- About Section -->
+  <section class="bg-emerald-500 py-16" id="about">
+    <h2 class="text-5xl text-center p-3 font-semibold mb-4 text-white">About Me</h2>
+    <div class="container mx-auto flex flex-col md:flex-row items-center p-6">
+      <!-- Left side (Image) -->
+      <div class="md:w-1/2 px-4 mt-6 md:mt-0">
+        <img src="images/Laptop.png" alt="Web Development" class="w-80 m-auto">
+      </div>
+
+      <!-- Right side (Information) -->
+      <div class="md:w-1/2 px-4 m-auto">
+        <p class="text-white leading-relaxed text-2xl">I'm a passionate web developer with a love for creating elegant and efficient solutions. My journey in the world of programming started as soon as I started with University, and I've been captivated by the ever-evolving landscape of technology.</p>
+        <br>
+        <p class="text-white leading-relaxed text-2xl">I've explored domains like android development and web development. I am a developer who's learning new things and growing everyday. I'm always excited to take on new challenges and collaborate with creative minds.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section class="bg-white py-16" id="contact">
+    <div class="container mx-auto px-4">
+      <div class="max-w-md mx-auto bg-white p-6 rounded-lg">
+        <h2 class="text-3xl font-semibold mb-4">Get In Touch</h2>
+        <form>
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-medium">Your Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-medium">Your Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-medium">Your Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
+          </div>
+          <a href="mailto:rautayush54@gmail.com" class="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-md font-semibold focus:outline-none focus:ring focus:ring-emerald-300 transition duration-300">Send Message</a>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <!-- Links  -->
+
+
+
+
+
+      <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <div class="m-auto">
+        <!-- GitHub Link -->
+        <a href="https://github.com/AyushR54" class="hover:text-gray-300 p-3 text-2xl">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <!-- Instagram Link -->
+        <a href="https://www.instagram.com/ayushhshh._/" class="hover:text-gray-300 p-3 text-2xl">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ayush-raut-9b878b231/" class="hover:text-gray-300 p-3 text-2xl">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        
+        <!-- Twitter Link -->
+        <a href="https://twitter.com/theayushraut" class="hover:text-gray-300 p-3 text-2xl">
+          <i class="fab fa-twitter"></i>
+        </a>
+        
+
+        <p class="text-center pt-5">Copyright © Ayush</p>
+      </div>
+      
+    </div>
+  </footer>
+
+
+
+
+    
+
+
+
+
+
+</body>
+</html>

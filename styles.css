@@ -1,0 +1,24 @@
+.card-image{
+    max-width: 200px;
+    margin: auto;
+}
+
+.image{
+    max-width: 25%;
+    padding: 20px;
+    margin: auto;
+}
+
+.about-image {
+    mix-blend-mode: multiply;  
+}
+
+.about-content {
+    float: right; 
+}
+
+.container {
+    margin: auto 30px;
+    padding: auto 30px;
+}
+
